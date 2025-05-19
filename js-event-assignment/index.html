@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Interactivity Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to JS Playground 🎉</h1>
+
+  <!-- Event Handling -->
+  <button id="clickBtn">Click Me!</button>
+  <p id="hoverText">Hover over me!</p>
+  <input type="text" id="keyInput" placeholder="Type something...">
+
+  <!-- Secret Event -->
+  <button id="secretBtn">Double Click Me 🤫</button>
+
+  <!-- Interactive Elements -->
+  <button id="colorChanger">Change My Color</button>
+  <div class="gallery">
+    <img id="galleryImg" src="https://placekitten.com/300/200" alt="Cute Kitten">
+    <button id="nextImg">Next Image</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tabBtn" data-tab="1">Tab 1</button>
+    <button class="tabBtn" data-tab="2">Tab 2</button>
+    <div id="tab1" class="tabContent">This is Tab 1 content.</div>
+    <div id="tab2" class="tabContent hidden">This is Tab 2 content.</div>
+  </div>
+
+  <!-- Form Validation -->
+  <form id="signupForm">
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required>
+    <button type="submit">Sign Up</button>
+    <p id="formMessage"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
